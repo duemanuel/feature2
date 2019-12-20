@@ -1,0 +1,11 @@
+framework module feature2 {
+  umbrella header "feature2.h"
+
+  export *
+  module * { export * }
+}
+
+module feature2.Swift {
+    header "feature2-Swift.h"
+    requires objc
+}
